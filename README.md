@@ -1,7 +1,7 @@
 # ATDeviceLib
 A set of libraries for PCB Design using common AT devices.
 
-  ## MCU Devices
+  ## Microcontrollers
   Schematic elements and footprints for common microcontroller boards.
 - Adafruit ItsyBitsy
     - 32u4-3V #3675
