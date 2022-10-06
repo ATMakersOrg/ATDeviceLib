@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -724,20 +724,20 @@ by exp-lbrs.ulp</description>
 <pad name="SWDIO" x="-5.08" y="-1.27" drill="1.1"/>
 <pad name="SWCLK" x="-5.08" y="1.27" drill="1.1"/>
 <pad name="!RESET" x="-2.794" y="0" drill="1.1"/>
-<pad name="A0@2" x="-7.62" y="-7.62" drill="0.6"/>
-<pad name="A1@2" x="-5.08" y="-7.62" drill="0.6"/>
-<pad name="A2@2" x="-2.54" y="-7.62" drill="0.6"/>
-<pad name="A3@2" x="0" y="-7.62" drill="0.6"/>
-<pad name="SDA@2" x="2.54" y="-7.62" drill="0.6"/>
-<pad name="SCL@2" x="5.08" y="-7.62" drill="0.6"/>
-<pad name="TX@2" x="7.62" y="-7.62" drill="0.6"/>
-<pad name="RX@2" x="7.62" y="7.62" drill="0.6"/>
-<pad name="SCK@2" x="5.08" y="7.62" drill="0.6"/>
-<pad name="MISO@2" x="2.54" y="7.62" drill="0.6"/>
-<pad name="MOSI@2" x="0" y="7.62" drill="0.6"/>
-<pad name="3V3@2" x="-2.54" y="7.62" drill="0.6"/>
-<pad name="GND@2" x="-5.08" y="7.62" drill="0.6"/>
-<pad name="5V@2" x="-7.62" y="7.62" drill="0.6"/>
+<pad name="A0@2" x="-7.62" y="-7.62" drill="1"/>
+<pad name="A1@2" x="-5.08" y="-7.62" drill="1"/>
+<pad name="A2@2" x="-2.54" y="-7.62" drill="1"/>
+<pad name="A3@2" x="0" y="-7.62" drill="1"/>
+<pad name="SDA@2" x="2.54" y="-7.62" drill="1"/>
+<pad name="SCL@2" x="5.08" y="-7.62" drill="1"/>
+<pad name="TX@2" x="7.62" y="-7.62" drill="1"/>
+<pad name="RX@2" x="7.62" y="7.62" drill="1"/>
+<pad name="SCK@2" x="5.08" y="7.62" drill="1"/>
+<pad name="MISO@2" x="2.54" y="7.62" drill="1"/>
+<pad name="MOSI@2" x="0" y="7.62" drill="1"/>
+<pad name="3V3@2" x="-2.54" y="7.62" drill="1"/>
+<pad name="GND@2" x="-5.08" y="7.62" drill="1"/>
+<pad name="5V@2" x="-7.62" y="7.62" drill="1"/>
 </package>
 <package name="ITSYBITYSY-32U4-3V">
 <pad name="!RST" x="-6.35" y="-7.62" drill="0.9"/>
@@ -937,20 +937,20 @@ by exp-lbrs.ulp</description>
 <wire x1="10.16" y1="-5.715" x2="5.08" y2="-5.715" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="-5.715" x2="5.08" y2="0" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="0" x2="10.16" y2="0" width="0.1524" layer="21"/>
-<pad name="A0" x="-7.62" y="-7.62" drill="0.6"/>
-<pad name="A1" x="-5.08" y="-7.62" drill="0.6"/>
-<pad name="A2" x="-2.54" y="-7.62" drill="0.6"/>
-<pad name="A3" x="0" y="-7.62" drill="0.6"/>
-<pad name="SDA" x="2.54" y="-7.62" drill="0.6"/>
-<pad name="SCL" x="5.08" y="-7.62" drill="0.6"/>
-<pad name="TX" x="7.62" y="-7.62" drill="0.6"/>
-<pad name="RX" x="7.62" y="7.62" drill="0.6"/>
-<pad name="SCK" x="5.08" y="7.62" drill="0.6"/>
-<pad name="MISO" x="2.54" y="7.62" drill="0.6"/>
-<pad name="MOSI" x="0" y="7.62" drill="0.6"/>
-<pad name="3V3" x="-2.54" y="7.62" drill="0.6"/>
-<pad name="GND" x="-5.08" y="7.62" drill="0.6"/>
-<pad name="5V" x="-7.62" y="7.62" drill="0.6"/>
+<pad name="A0" x="-7.62" y="-7.62" drill="1"/>
+<pad name="A1" x="-5.08" y="-7.62" drill="1"/>
+<pad name="A2" x="-2.54" y="-7.62" drill="1"/>
+<pad name="A3" x="0" y="-7.62" drill="1"/>
+<pad name="SDA" x="2.54" y="-7.62" drill="1"/>
+<pad name="SCL" x="5.08" y="-7.62" drill="1"/>
+<pad name="TX" x="7.62" y="-7.62" drill="1"/>
+<pad name="RX" x="7.62" y="7.62" drill="1"/>
+<pad name="SCK" x="5.08" y="7.62" drill="1"/>
+<pad name="MISO" x="2.54" y="7.62" drill="1"/>
+<pad name="MOSI" x="0" y="7.62" drill="1"/>
+<pad name="3V3" x="-2.54" y="7.62" drill="1"/>
+<pad name="GND" x="-5.08" y="7.62" drill="1"/>
+<pad name="5V" x="-7.62" y="7.62" drill="1"/>
 </package>
 <package name="QT_PY-SMD">
 <text x="-0.0762" y="2.4638" size="1.27" layer="25" ratio="10">&gt;NAME</text>
@@ -1010,20 +1010,20 @@ by exp-lbrs.ulp</description>
 <pad name="SWDIO" x="-5.08" y="-1.27" drill="1.1"/>
 <pad name="SWCLK" x="-5.08" y="1.27" drill="1.1"/>
 <pad name="!RESET" x="-2.794" y="0" drill="1.1"/>
-<pad name="A0" x="-7.62" y="-7.62" drill="0.6"/>
-<pad name="A1" x="-5.08" y="-7.62" drill="0.6"/>
-<pad name="A2" x="-2.54" y="-7.62" drill="0.6"/>
-<pad name="A3" x="0" y="-7.62" drill="0.6"/>
-<pad name="SDA" x="2.54" y="-7.62" drill="0.6"/>
-<pad name="SCL" x="5.08" y="-7.62" drill="0.6"/>
-<pad name="TX" x="7.62" y="-7.62" drill="0.6"/>
-<pad name="RX" x="7.62" y="7.62" drill="0.6"/>
-<pad name="SCK" x="5.08" y="7.62" drill="0.6"/>
-<pad name="MISO" x="2.54" y="7.62" drill="0.6"/>
-<pad name="MO" x="0" y="7.62" drill="0.6"/>
-<pad name="3V3" x="-2.54" y="7.62" drill="0.6"/>
-<pad name="GND" x="-5.08" y="7.62" drill="0.6"/>
-<pad name="5V" x="-7.62" y="7.62" drill="0.6"/>
+<pad name="A0" x="-7.62" y="-7.62" drill="1"/>
+<pad name="A1" x="-5.08" y="-7.62" drill="1"/>
+<pad name="A2" x="-2.54" y="-7.62" drill="1"/>
+<pad name="A3" x="0" y="-7.62" drill="1"/>
+<pad name="SDA" x="2.54" y="-7.62" drill="1"/>
+<pad name="SCL" x="5.08" y="-7.62" drill="1"/>
+<pad name="TX" x="7.62" y="-7.62" drill="1"/>
+<pad name="RX" x="7.62" y="7.62" drill="1"/>
+<pad name="SCK" x="5.08" y="7.62" drill="1"/>
+<pad name="MISO" x="2.54" y="7.62" drill="1"/>
+<pad name="MO" x="0" y="7.62" drill="1"/>
+<pad name="3V3" x="-2.54" y="7.62" drill="1"/>
+<pad name="GND" x="-5.08" y="7.62" drill="1"/>
+<pad name="5V" x="-7.62" y="7.62" drill="1"/>
 </package>
 </packages>
 <symbols>
